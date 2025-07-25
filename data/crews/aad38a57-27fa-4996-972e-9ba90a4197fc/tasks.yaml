@@ -1,0 +1,7 @@
+prompt_response_task:
+  description: "\n            Your task is to produce a high-quality response for\
+    \ the following user prompt:\n            \"create plan for study\"\n\n      \
+    \      Collaborate as a team to brainstorm, analyze, and generate the best possible\
+    \ answer.\n            "
+  expected_output: Your final answer MUST directly address the user's prompt with
+    clarity and creativity.
