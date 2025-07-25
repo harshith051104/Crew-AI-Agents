@@ -78,12 +78,19 @@ Then, you can send requests to the following endpoints:
 ### Sample Output
 
 When you send a new prompt to the `/generate_agents` endpoint, you will see output in your console similar to this:
+
 📥 User Prompt: "Create a marketing campaign for a new line of sustainable sneakers."
+
 ✅ Generated agents:
+
 Agent 1: Marketing Strategist
+
 Agent 2: Content Creator
+
 Agent 3: Social Media Manager
+
 ✅ Crew YAML files created at data/crews/a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6
+
 ✅ Crew a1b2c3d4-e5f6-a7b8-c9d0-e1f2a3b4c5d6 and its agents saved to the database.
 
 The API will return a JSON response with the crew ID, status, and the final output from the crew's execution.
